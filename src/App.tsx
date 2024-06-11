@@ -1,7 +1,7 @@
-import Message from "./Message";
-
+import NavBar from "./components/Nav";
 function App() {
-  return <div><Message/></div>
+  return <header><NavBar/></header>
 }
 
 export default App;
+
