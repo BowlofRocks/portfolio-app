@@ -9,13 +9,13 @@ function NavBar()
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Portfolio</a>
+            <a className="nav-link" href="#/portfolio">Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact Me</a>
+            <a className="nav-link" href="#/contact">Contact Me</a>
           </li>
         </ul>
       </div>

@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Project Title**:
+My portfolio website
 
-Currently, two official plugins are available:
+**Project Description**:
+Create a portfolio website for myself
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Project Goals**:
+Get the baisic layout going and get the home page fleshed out.
 
-## Expanding the ESLint configuration
+## Instructions for Build and Use
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Steps to build and/or run the software:
 
-- Configure the top-level `parserOptions` property like this:
+1. go to the terminal
+2. type npm run dev
+3. click on the link and it will render the website
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Instructions for using the software:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. it should work like a regular website so enjoy!
+
+## Development Environment
+
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
+
+the latest version of react
+select the typscript part when the menu renders on the terminal
+install the latest version of bootstrap
+install the react routes into the program
+
+## Useful Websites to Learn More
+
+I found these websites useful in developing this software:
+
+- [Get started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [React JS Tutorial - #7 - Multiple Pages](https://www.youtube.com/watch?v=qi32YwjoN2U)
+-
+
+## Future Work
+
+The following items I plan to fix, improve, and/or add to this project in the future:
+
+- [ ] Get the contact me to send real data in the form of a json
+- [ ] Get the styles to work well on mobile
