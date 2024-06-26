@@ -1,39 +1,93 @@
-body {
-  background-color: #f5f5f5;
+/* Mobile */
+@media screen and (max-width: 499px) {
+  body {
+    background-color: #f5f5f5;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: auto;
+  }
+  .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    text-align: center;
+    border-style: solid;
+  }
+  .contact-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 70px;
+    width: 90%;
+    text-align: center;
+    border-style: solid;
+    border-width: 50%;
+  }
+
+  .display-4 {
+    margin-bottom: 50px;
+  }
+
+  .table {
+    margin-top: 20px;
+  }
 }
 
-.profile-pic {
-  width: 200px;
-  height: auto;
-  margin-left: 23px;
-}
+/* Browser */
 
-.container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  width: 50%;
-  text-align: center;
-  border-style: solid;
-}
-.contact-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  padding: 70px;
-  width: 50%;
-  text-align: center;
-  border-style: solid;
-}
+@media screen and (min-width: 500px) {
+  .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 30px;
+    padding-bottom: 70px;
+    width: 75%;
+    text-align: center;
+    border-style: solid;
+  }
 
-.display-4 {
-  margin-bottom: 50px;
-}
+  .profile-pic {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-bottom: 30px;
+  }
 
-.table {
-  margin-top: 20px;
+  .contact-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 70px;
+    width: 75%;
+    text-align: center;
+    border-style: solid;
+  }
+
+  .project-prompt {
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-info {
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 6px;
+  }
 }

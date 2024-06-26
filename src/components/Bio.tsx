@@ -1,9 +1,8 @@
 function AboutMe() {
     return (<>
     <div className="container ">
-  <div className="row">
-    <div className="col-lg-8 pt-4 pt-lg-6">
-    <img  src="./src/assets/profile-pic.jpg" className="profile-pic float-end imgshadow me-3" alt="profile-pic"/>
+    
+    <img  src="./src/assets/profile-pic.jpg" className="profile-pic" alt="profile-pic"/>
     <h1 className="display-1"><u>About.</u></h1>
     <figure>
   <blockquote className="blockquote">
@@ -12,43 +11,57 @@ function AboutMe() {
         I aspire to help businesses express themselves thorugh their websites.</small> </p>
   </blockquote>
 </figure>
-    </div>
-  </div>
 </div>
 
 <div className="container ">
+<h1 className="display-1"><u>Proficiencies</u></h1>
+<p><small>These are all of the languaages that I am proficient in based on color</small> </p>
 <table className="table">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Language</th>
+      <th scope="col">Proficiency Level</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td className="table-success">C++</td>
+      <td className="table-success">Competant</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td className="table-warning">C#</td>
+      <td className="table-warning">Competant</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colSpan={2}>Larry the Bird</td>
-      <td>@twitter</td>
+      <td className="table-success">CSS/HTML/JS</td>
+      <td className="table-success">Proficient</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td className="table-success">React Typescript</td>
+      <td className="table-success">Competant</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td className="table-success">Python</td>
+      <td className="table-success">Competant</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td className="table-warning">React Native</td>
+      <td className="table-warning">Competant</td>
     </tr>
   </tbody>
 </table>
-
+  <h3 className="project-prompt"><small className="text-muted">Interested in seeing my projects? </small></h3>
+  <a className="nav-link active" aria-current="page" href="#/portfolio">
+    <button type="button" className="btn btn-primary btn-lg">Click Here</button>
+  </a>
 </div>
-   
     </>)
 
     
