@@ -1,0 +1,19 @@
+{
+    "projects": [
+      {
+        "name": "D&D Roll Generator",
+        "url": "https://github.com/BowlofRocks/DnDRollGenerator",
+        "imageurl": "./assets/DnDRollGenerator.png"
+      },
+      {
+        "name": "Typing Simulator",
+        "url": "https://lil-gloomy.web.app/",
+        "imageurl": "./assets/lilGloomy.png"
+      },
+      {
+        "name": "My First App",
+        "url": "https://lil-gloomy.web.app/",
+        "imageurl": "./assets/lilGloomy.png"
+      }
+    ]
+  }
