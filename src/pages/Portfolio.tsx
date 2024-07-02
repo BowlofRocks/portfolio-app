@@ -28,7 +28,6 @@ function Portfolio() {
           <div key={index}>
             <h2>{project.name}</h2>
             <a href= {project.url}><img src={project.imageUrl}/></a>
-
           </div>
         )
         )
