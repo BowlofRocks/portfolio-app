@@ -25,7 +25,7 @@ function Portfolio() {
       <div className="grid" id="cards"></div>
       {data ? (
         data.projects.map((project, index)=> (
-          <div key={index}>
+          <div className="card" key={index}>
             <h2>{project.name}</h2>
             <a href= {project.url}><img src={project.imageUrl}/></a>
           </div>

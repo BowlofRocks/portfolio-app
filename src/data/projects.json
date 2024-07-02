@@ -12,8 +12,8 @@
       },
       {
         "name": "My First App",
-        "url": "https://lil-gloomy.web.app/",
-        "imageUrl": "./src/assets/lilGloomy.png"
+        "url": "https://github.com/BowlofRocks/Sprint3/tree/main/firstApp",
+        "imageUrl": "./src/assets/myFirstApp.png"
       }
     ]
   }
