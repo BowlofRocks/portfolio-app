@@ -3,7 +3,7 @@
       {
         "name": "D&D Roll Generator",
         "url": "https://github.com/BowlofRocks/DnDRollGenerator",
-        "imageUrl": "../assets/DnDRollGenerator.png"
+        "imageUrl": "./src/assets/DnDRollGenerator.png"
       },
       {
         "name": "Typing Simulator",
