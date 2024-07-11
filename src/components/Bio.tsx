@@ -14,7 +14,7 @@ function AboutMe() {
 </div>
 
 <div className="container ">
-<h1 className="display-1"><u>Proficiencies</u></h1>
+<h1 className="display-1"><u>Proficiencies.</u></h1>
 <p><small>These are all of the languaages that I am proficient in based on color</small> </p>
 <table className="table">
   <thead>

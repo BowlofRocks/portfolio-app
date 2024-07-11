@@ -1,0 +1,41 @@
+{
+    "proficiencies": [
+      {
+        "index": "1",
+        "languages": "C++",
+        "profLevel": "Proficient",
+        "interestLevel": "Low"
+      },
+      {
+        "index": "2",
+        "languages": "C#",
+        "profLevel": "Competent",
+        "interestLevel": "Medium"
+      },
+      {
+        "index": "3",
+        "languages": "Python",
+        "profLevel": "Proficient",
+        "interestLevel": "Medium"
+      },
+      {
+        "index": "4",
+        "languages": "HTML/CSS/JS",
+        "profLevel": "Proficient",
+        "interestLevel": "High"
+      },
+      {
+        "index": "5",
+        "languages": "React Typescript",
+        "profLevel": "Competent",
+        "interestLevel": "High"
+
+      },
+      {
+        "index": "6",
+        "languages": "React Native",
+        "profLevel": "Competent",
+        "interestLevel": "Medium"
+      }
+    ]
+  }
