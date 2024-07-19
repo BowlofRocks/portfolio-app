@@ -1,10 +1,5 @@
 import React, {useEffect, ReactElement, useState} from "react";
 import { getProjects, Data} from "../js/porfolio";
-import imgUrl from "../assets/dndRoller.png";
-
-function displayProjects(data: Data): ReactElement {
-  return <p>{JSON.stringify(data)}</p>
-}
 
 
 function Portfolio() {

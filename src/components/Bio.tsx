@@ -1,3 +1,6 @@
+import React, {useEffect, ReactElement, useState} from "react";
+import { getProjects, Data} from "../js/porfolio";
+
 function AboutMe() {
     return (<>
     <div className="container ">
