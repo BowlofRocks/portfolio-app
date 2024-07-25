@@ -1,16 +1,17 @@
 export interface Proficiencies {
-    name : string; 
-    url : string;
-    imageUrl: string
+    index : string; 
+    languages : string;
+    profLevel : string;
+    interestLevel : string
 }
 
 export interface Data { 
-    projects : Proficiencies[];
+    proficiencies : Proficiencies[];
 }
 
 const url = "https://bowlofrocks.github.io/portfolio-app/src/data/proficiencies.json"
 
-export async function getProjects(): Promise<any> {
+export async function getProficiencies(): Promise<any> {
   const response: Response = await fetch(url);
   try {
     if (response.ok) {

@@ -1,11 +1,11 @@
-export interface Project {
+export interface Proficiency {
     name : string; 
     url : string;
     imageUrl: string
 }
 
 export interface Data { 
-    projects : Project[];
+    projects : Proficiency[];
 }
 
 const url = "https://bowlofrocks.github.io/portfolio-app/src/data/projects.json"
